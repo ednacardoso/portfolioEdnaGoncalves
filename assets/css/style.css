@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.bg--nav{
+    background-color: #343441;
+}
+
+.banner--big{
+    background-image: url("../../media/pexels-cottonbro-4065885.jpg");
+    background-position: center;
+    background-size:cover;
+    height: 500px;
+}
+
+.card-bodypront{
+    flex: 1 1 auto;
+    padding: 1rem 5rem;
+    height: 24.5rem;
+}
+
+.img-fluid{padding-top: 0.5rem;
+    padding: 0.5rem;
+    height: 50%;
+}
+
+.text-shadows{
+    text-shadow: 1px 2px 2px #000;
+}
+
+.text--p {
+    font-size: 11px;
+}
+
+.box--card {
+    height: 100%;
+    max-height: 550px;
+}
+
+.banner--small{
+    background-color: #e78f0c36;
+    background-position: start;
+    background-size:cover;
+    height: 300px;    
+    
+}
+
+.banner--contact{
+    background-image: url("../Arquivos\ de\ Programas/PortfólioEdna/media/pexels-aleksandar-pasaric-2603464.jpg");
+    background-position: center;
+    background-size:cover;
+    height: 400px;
+}
+
+.img-fluid{
+    height: 50%;
+}
+
+
+@media (max-width:500px) {
+    .banner--contact {
+        height:700px;
+    }
+    .w-75{
+        width: 100% !important;
+    }
+}
