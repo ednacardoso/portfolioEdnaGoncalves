@@ -15,10 +15,16 @@ body{
     height: 500px;
 }
 
+.card-body{
+    flex:1 1 auto;
+    padding:1rem 1rem;
+    height:5rem
+}
+
 .card-bodypront{
     flex: 1 1 auto;
-    padding: 1rem 5rem;
-    height: 24.5rem;
+    padding: 1rem 5rem 2rem 2rem;
+    height: 23.5rem;
 }
 
 .img-fluid{padding-top: 0.5rem;
@@ -27,23 +33,24 @@ body{
 }
 
 .text-shadows{
-    text-shadow: 1px 2px 2px #000;
+    text-shadow: 1px 2px 2px #000;    
 }
 
 .text--p {
-    font-size: 11px;
+    font-size: 11px;    
 }
 
 .box--card {
     height: 100%;
-    max-height: 550px;
+    max-height: 100%;
 }
 
 .banner--small{
     background-color: #e78f0c36;
     background-position: start;
     background-size:cover;
-    height: 300px;    
+    height: 100%;    
+    padding: 4.5rem 2rem 2rem 5.5rem
     
 }
 
@@ -51,7 +58,8 @@ body{
     background-image: url("../Arquivos\ de\ Programas/PortfólioEdna/media/pexels-aleksandar-pasaric-2603464.jpg");
     background-position: center;
     background-size:cover;
-    height: 400px;
+    background-color: #f1e5d5;
+    height: 100%;
 }
 
 .img-fluid{
